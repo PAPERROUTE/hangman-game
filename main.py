@@ -1,3 +1,7 @@
+#TODO-3: - Import the logo from hangman_art.py and print it at the start of the game.
+from hangman_art import logo
+print(logo)
+
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
